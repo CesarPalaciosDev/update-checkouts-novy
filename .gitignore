@@ -1,0 +1,9 @@
+config.py
+digicertificate.pem
+
+
+.venv
+.env
+
+/__pycache__
+/checkouts
