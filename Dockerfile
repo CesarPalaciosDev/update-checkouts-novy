@@ -4,7 +4,7 @@ FROM python:3.11-alpine
 WORKDIR /app
 
 # Copy the current directory contents into the container at /app
-COPY . /app
+COPY . .
 
 # Install dependencies do compile numpy and pandas
 RUN apk --no-cache add musl-dev linux-headers g++
