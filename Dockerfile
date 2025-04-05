@@ -16,4 +16,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 RUN apk del musl-dev linux-headers g++
 
 # Run the script when the container launches
-CMD ["python", "update_checkouts.py"]
+CMD ["sh"]
